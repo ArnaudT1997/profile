@@ -1,0 +1,112 @@
+body {
+  background-color: #ede0d4;
+}
+
+div {
+  text-align: center;
+  margin: 20px 20%;
+  padding: 10px;
+  border: 2px solid #7f5539;
+  border-radius: 5px;
+  background-color: #ffebe3;
+  box-shadow: 3px 3px 3px rgba(0,0,0,.1);
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  color: #7f5539;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #9c6644;
+  margin: 10px;
+}
+
+@media (max-width: 600px) {
+  /* For a screen < 960px, this CSS will be read */
+  h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #7f5539;
+    margin: 0px;
+  }
+  h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #9c6644;
+    margin: 10px;
+  }
+}
+
+
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 20 px;
+  color: #370617 ;
+  margin: auto;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  color: red;
+  margin-top: 50px;
+}
+
+.button-link {
+  background-color: #c9ada7;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 25px;
+}
+
+a:hover {
+  color: purple
+}
+
+img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  /* For a screen < 960px, this CSS will be read */
+  img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+}
+
+
+ul {
+  display: inline;
+  list-style: none;
+  padding: 0px;
+}
+
+i {
+  font-size: 40px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.block-descr {
+  padding-bottom: 40px;
+}
